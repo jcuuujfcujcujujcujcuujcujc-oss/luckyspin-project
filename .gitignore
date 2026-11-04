@@ -1,0 +1,36 @@
+# Visual Studio / Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+publish/
+*.dll
+*.exe
+*.pdb
+*.cache
+project.assets.json
+*.nuget.*
+
+# Test results
+TestResults/
+coverage/
+
+# Secrets and local configuration
+*.pfx
+*.snk
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+.env
+
+# OS
+.DS_Store
+Thumbs.db
