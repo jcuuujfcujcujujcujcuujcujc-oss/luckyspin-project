@@ -67,14 +67,16 @@ dotnet run
 | [docs/USER_STORIES.md](docs/USER_STORIES.md) | 6 пользовательских историй и критерии приёмки | № 3 |
 | [docs/BACKLOG.md](docs/BACKLOG.md) | Product Backlog, выбор первой итерации | № 3 |
 | [docs/DEFINITION_OF_DONE.md](docs/DEFINITION_OF_DONE.md) | Definition of Done | № 3 |
-| [docs/issues/](docs/issues) | Тексты 14 Issues; создаются скриптом `scripts/create-issues.sh` | № 2–3 |
+| [docs/WORKFLOW.md](docs/WORKFLOW.md) | Ветки, Pull Request, review, закрытие Issues, Milestones | № 3 |
+| [docs/issues/](docs/issues) | Тексты 15 Issues; создаются скриптами `scripts/create-issues.sh` и `scripts/setup-github.sh` | № 2–3 |
 
 ## Роли участников
 
 | Роль | Участник |
 |------|----------|
-| Заказчик | _(преподаватель, заполнить)_ |
-| Руководитель проекта | _(Ф.И.О., заполнить)_ |
-| Разработчик | _(Ф.И.О., заполнить)_ |
+| Заказчик | _[Ф.И.О. преподавателя]_ |
+| Руководитель проекта | _[Ф.И.О.]_, GitHub `jcuuujfcujcujujcujcuujcujc-oss` |
+| Разработчик | _[Ф.И.О.]_, GitHub `jcuuujfcujcujujcujcuujcujc-oss` |
+| Рецензент (code review) | _[Ф.И.О. и GitHub-логин второго участника]_ |
 
-В учебной группе роли могут совмещаться.
+Обязанности и порядок работы: [паспорт проекта](docs/PROJECT_CHARTER.md), [процесс разработки](docs/WORKFLOW.md).
