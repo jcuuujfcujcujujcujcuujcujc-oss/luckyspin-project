@@ -75,8 +75,8 @@ dotnet run
 | Роль | Участник |
 |------|----------|
 | Заказчик | _[Ф.И.О. преподавателя]_ |
-| Руководитель проекта | _[Ф.И.О.]_, GitHub `jcuuujfcujcujujcujcuujcujc-oss` |
-| Разработчик | _[Ф.И.О.]_, GitHub `jcuuujfcujcujujcujcuujcujc-oss` |
+| Руководитель проекта | _[Ф.И.О.]_, GitHub `trassers656-boop` |
+| Разработчик | _[Ф.И.О.]_, GitHub `trassers656-boop` |
 | Рецензент (code review) | _[Ф.И.О. и GitHub-логин второго участника]_ |
 
 Обязанности и порядок работы: [паспорт проекта](docs/PROJECT_CHARTER.md), [процесс разработки](docs/WORKFLOW.md).
