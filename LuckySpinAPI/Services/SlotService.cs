@@ -66,6 +66,12 @@ namespace LuckySpinAPI.Services
 
         public async Task<SpinResult> SpinAsync(int userId, decimal betAmount)
         {
+            // Ставка должна быть положительной: иначе отрицательная ставка увеличивала бы баланс (FR-04).
+            if (betAmount <= 0)
+            {
+                return Fail(SpinStatus.InvalidBet, "Ставка должна быть больше нуля.");
+            }
+
             await Gate.WaitAsync();
             try
             {
@@ -77,7 +83,7 @@ namespace LuckySpinAPI.Services
 
                 if (user.Balance < betAmount)
                 {
-                    return Fail(SpinStatus.InsufficientFunds, "Недостаточно кредитов на балансе!");
+                    return Fail(SpinStatus.InsufficientFunds, "Недостаточно кредитов на балансе.");
                 }
 
                 var outcome = _engine.Spin();

@@ -41,9 +41,9 @@ namespace LuckySpinAPI.Controllers
                         winAmount = result.WinAmount
                     });
                 case SpinStatus.UserNotFound:
-                    return NotFound(result.Message);
+                    return NotFound(new { message = result.Message });
                 default:
-                    return BadRequest(result.Message);
+                    return BadRequest(new { message = result.Message });
             }
         }
     }
